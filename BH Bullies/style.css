@@ -1,0 +1,62 @@
+h1 {
+    font-family: 'Tapestry', cursive;
+    font-size: 65px;
+    color: red;
+}
+
+#logo {
+    height: 130px;
+}
+
+li {
+    display: inline-block;
+    color: red;
+}
+
+header {
+    height: 120px;
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#aboutUs {
+    height: 750px;
+    background-image: url('img/bully1.jpg');
+    background-size: cover;
+}
+
+.blackBox {
+    background-color: black;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+/* Landscape phones and tablets */
+@media screen and (max-width: 999px) {
+
+}
+
+/* Mobile Phones */
+@media screen and (max-width: 600px) {
+    #logo {
+        height: 80px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    header {
+        justify-content: space-evenly;
+    }
+
+
+}
