@@ -12,4 +12,4 @@ this website is for the dog breeder business "Big Hero Bullies" <br />
 5/22/2022: <br />
 - Finished basic layout for desktop <br />
 - Added Mobile Friendly Layout <br />
-- First Draft site published for custmer review <br />
+- First Draft site published for customer review <br />
