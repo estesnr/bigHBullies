@@ -1,3 +1,5 @@
+document.querySelector('#contactButton').addEventListener('click', eMail)
+
 let i = 0;
 
 let images = [];
@@ -23,3 +25,21 @@ function changeImg() {
 }
 
 window.onload = changeImg;
+
+let nameInput = document.querySelector('#nameInput')
+let mailInput = document.querySelector('#mailInput')
+let commentBox = document.querySelector('#commentBox')
+
+function eMail() {
+    Email.send({
+        Host: 'smtp.gmail.com',
+        Username: "contactForm@bighbullies.com",
+        To: 'bighbullies@gmail.com',
+        From: 'contactForm@bighbullies.com',
+        Subject: `Message from ${nameInput} @ ${mailInput}`,
+        Body: commentBox
+})
+    .then(function(message) {
+        alert("Message Sent Successfully")
+    });
+}

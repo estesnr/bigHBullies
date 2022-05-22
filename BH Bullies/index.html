@@ -36,7 +36,29 @@
             <img id="slideShow" name="pupShow" max-width="15%" height="500"> 
             <br />
         </section>
-        <section id="contactUs"></section>
+        <section id="contactUs">
+            <div id="contactBlurb">
+            <p> We pride ourselves on making sure our pups reach
+                a healthy adulthood with a loving family.<br /> If you're
+                interested in adopting one of our pups, contact us.
+            </p>
+            </div> <br />
+            <div id="contactSection">
+            <form>
+                <input id="nameInput" type="text" placeholder="Full Name">
+                <input id="mailInput" type="text" placeholder="Email Address"> <br />
+                <textarea id="commentBox" type="text" placeholder="Comment" rows="7" cols="45" wrap="soft"></textarea><br />
+            <img id="contactButton" src="img/contactUs.png" onclick="eMail()">
+            </form>
+            </div>
+        </section>
+        <footer>
+            <span>Email: <br /> bigHbullies@gmail.com</span><br />
+            <span>Phone Number:<br /> 000-9990</span><br />
+            <span id="disclaimer">Images and Content are owned by Big Hero Bullies</span>
+        </footer>
+        <script src='https://smtpjs.com/v3/smtp.js'></script>
         <script type="text/javascript" src="main.js"></script>
+
     </body>
 </html>
